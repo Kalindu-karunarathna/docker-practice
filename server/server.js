@@ -39,5 +39,5 @@ app.get("/api/users",async (req,res)=>{
 
 //listen to port 
 app.listen(5000,()=>{
-    console.log("server is running on port 3000");
+    console.log("server is running on port 5000");
 });

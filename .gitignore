@@ -1,4 +1,17 @@
-node_modules
+# dependencies
+node_modules/
+
+# environment variables
 .env
-dist
-build
+.env.local
+
+# build outputs
+dist/
+build/
+
+# logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
